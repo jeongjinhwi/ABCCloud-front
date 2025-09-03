@@ -69,7 +69,7 @@ jobs:
 
       - name: Update Kubernetes manifest
         run: |
-          cd /home/cloudshell-user/shopping-mall/ABCCloud-deploy-main/k8s/shopping-mall/frontend/overlays/aws
+          cd k8s/shopping-mall/frontend/overlays/aws
           kustomize edit set image frontend-image=${{ secrets.ECR_FRONTEND_REPOSITORY }}:${{ github.event.inputs.image_tag }}
 
       - name: Commit and push changes
