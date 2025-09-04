@@ -82,7 +82,7 @@ const Home = () => {
         <Container maxWidth="md" sx={{ position: 'relative', textAlign: 'center' }}>
           <Typography variant="h2" component="h1" gutterBottom sx={{ fontWeight: 'bold' }}>
             Welcome to Our Shopping Mall-Latest
-            제발 되라!!! 어후 좀 제발 config 다시 전부 추가했다..
+            제발 되라!!! 어후 좀 제발 config 다시 전부 추가했다..3333
           </Typography>
           <Typography variant="h5" paragraph sx={{ mb: 4 }}>
             Discover amazing products at great prices
